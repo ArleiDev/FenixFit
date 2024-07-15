@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-bg {
+    background-image: url('https://i.postimg.cc/gjtSVTGV/banner1-6.png');
+  }
+
+  .custom-bg2{
+    background-image: url('https://i.postimg.cc/g2wN3sXp/banner1-7.png');
+  }
