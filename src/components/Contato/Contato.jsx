@@ -7,7 +7,7 @@ const Contato = () => {
 
   return (
    
-    <div className="custom-bg2 h-screen bg-cover bg-center py-10">
+    <div id='Contato' className="custom-bg2 h-screen bg-cover bg-center py-10">
       <h1 className="text-5xl text-white font-bold text-center mb-10">Fale Conosco</h1>
       <div className="max-w-3xl mx-auto mt-24 bg-white p-6 rounded-lg shadow-md ">
         <form className="space-y-4">

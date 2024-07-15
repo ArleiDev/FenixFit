@@ -1,24 +1,18 @@
-import Home from './pages/Home/Home'
-import Planos from './components/Planos/Planos'
-import Feedback from './components/Feedback/Feedback'
-import Contato from './components/Contato/Contato'
-import Footer from './components/Footer/Footer'
+// src/App.js
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import Home from './pages/Home/Home';
 
-
+import Login from './pages/Login/Login';
 function App() {
-
-
-  return (
-    <>
-      <Home>
-        
-      </Home>  
-      <Planos></Planos>
-      <Feedback></Feedback>
-      <Contato></Contato>
-      <Footer></Footer>
-    </>
-  )
+    return (
+        <Router>
+           <Routes>
+            <Route path="/Alunos" element={<Login />} />
+            <Route path="/" element={<Home />} />
+           </Routes>
+        </Router>
+    );
 }
 
-export default App
+export default App;

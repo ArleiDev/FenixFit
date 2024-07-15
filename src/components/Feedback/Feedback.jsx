@@ -20,7 +20,7 @@ const testimonials = [
 
 const Feedback = () => {
   return (
-    <div className="bg-white py-10 p-20">
+    <div id='Feedback' className="bg-white py-10 p-20">
       <h1 className="text-5xl font-bold text-center mb-10">O que dizem sobre nós</h1>
       <div className="flex flex-col md:flex-row justify-center items-center md:space-x-8 space-y-8 md:space-y-0">
         {testimonials.map((testimonial, index) => (

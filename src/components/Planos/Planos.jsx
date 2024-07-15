@@ -38,7 +38,7 @@ const Planos = () => {
   ];
 
   return (
-    <div className="bg-zinc-950 py-52 p-20">
+    <div id='Planos' className="bg-zinc-950 py-52 p-20">
       <h1 className="text-5xl text-white font-bold text-center mb-10">Conheça Nosso Planos:</h1>
       <div className="flex flex-col md:flex-row justify-center items-center md:space-x-8 space-y-8 md:space-y-0">
         {plans.map((plan) => (
